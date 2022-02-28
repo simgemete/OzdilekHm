@@ -1,0 +1,37 @@
+Created by testinium on 28.02.2022
+
+This is a concept file with following syntax for each concept.
+# Uygulama açılır
+*id "com.ozdilek.ozdilekteyim:id/ivSplash" li elemente tıkla
+# Uygulamanın açıldığını kontrol et
+*"com.ozdilek.ozdilekteyim:id/tv_startShoppingStore" li uygulamanın açıldığını kontrol et
+# Alişverişe basla butonuna tıkla
+*id "com.ozdilek.ozdilekteyim:id/tv_startShoppingStore" li elemente tıkla
+# Alışveriş sayfasının acıldığını doğrula
+*id "com.ozdilek.ozdilekteyim:id/largeLabel" li elemente tıkla
+#Katogoriler sayfasını aç
+*id "com.ozdilek.ozdilekteyim:id/nav_categories" li elemente tıkla
+# Kategoriler kontrol edilir
+*xpath "//android.widget.LinearLayout[@content-desc='Kategoriler']/android.widget.TextView" li elemente tıkla
+# Kadın seçeneğine tıkla
+*xpath "//*[@resource-id='com.ozdilek.ozdilekteyim:id/recyclerCategories']/android.widget.RelativeLayout[2]" li elemente tıkla
+# Pantolon kategorisini aç
+*xpath "//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayCategoriesItem'][13]" li elemente tıkla
+#Sayfayı scroll yap
+*Sayfayı aşağı kaydır
+#Random urun sec
+* Elementleri "//*[@resource-id='com.ozdilek.ozdilekteyim:id/recyclerView']/android.widget.FrameLayout" arasından rasgele bir tanesini seç ve tıkla
+#Urun detay <text> sayfası  kontrolu yap
+*id "com.ozdilek.ozdilekteyim:id/tvColorDesc" li elementi bul ve <text> alanını kontrol et
+#Favoriler butonuna tıkla
+*id "com.ozdilek.ozdilekteyim:id/imgFav" li emente tıkla
+#Giriş sayfasında <text> dogrula
+*id "com.ozdilek.ozdilekteyim:id/btnLogin" li elementi bul ve <text> alanını kontrol et
+#Kullanıcı alanına <text> yaz
+*id "com.ozdilek.ozdilekteyim:id/etEposta" li ementi bul ve <text> değerini yaz
+#Parola alanına <text> yaz
+*id "com.ozdilek.ozdilekteyim:id/etPassword" li ementi bul ve <text> değerini yaz
+#Geri butonuna tıkla
+*id "com.ozdilek.ozdilekteyim:id/ivBack" li elemente tıkla
+#Random urun sec
+* Elementleri "//*[@resource-id='com.ozdilek.ozdilekteyim:id/recyclerView']/android.widget.FrameLayout" arasından rasgele bir tanesini seç ve tıkla
